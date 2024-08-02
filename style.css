@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;  /* Largura da barra de rolagem */
+}
+
+/* Estilizando a parte de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: var(--rosa);  /* Cor de fundo da barra de rolagem */
+}
+
+/* Estilizando o polegar da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: var(--preto);  /* Cor do polegar da barra de rolagem */
+    border-radius: 10px;  /* Borda arredondada */
+}
+
+:root {
+    --rosa: #f1e0db;
+    --branco: #ebeac8;
+    --preto: #322323;
+    --tantwinkle: font-family: "Great Vibes", cursive;
+    --migra: font-family: "Playfair Display", serif;
+    --codecpro: font-family: "Poppins", sans-serif;
+}
+
+/*Página Principal*/
+.inicio{
+    height: 100vh;
+    background-color: var(--rosa);
+    display: flex;
+    flex-direction: row;
+}
+
+/*Imagens com animação no Inicio da página*/
+.imgInicio{
+    width: 50%;
+    padding: 30px 0 0 100px;
+}
+    #imagensInicio{
+    width: 500px;
+    height: 550px;
+    background-image: url(Imagens/modelo1.jpg);
+    background-size: cover;
+    animation-name: modelos;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+@keyframes modelos{
+    25%{
+        background-image: url(Imagens/modelo1.jpg);
+    }
+    50%{
+        background-image: url(Imagens/modelo2.jpg);
+    }
+    75%{
+        background-image: url(Imagens/modelo3.jpg);
+    }
+    100%{
+        background-image: url(Imagens/modelo4.jpg);
+    }
+}
+
+/*Logo e Slogan da marca*/
+.infoInicio{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 80px 80px 40px;
+}
+.infoInicio h2{
+    font-family: var(--migra);
+    font-weight: 100;
+    text-align: center;
+}
+.infoInicio button{
+    background-color: var(--rosa);
+    border: 1px solid var(--preto);
+    width: 180px;
+    height: 50px;
+    font-family: var(--migra);
+    font-weight: 350;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.infoInicio button:hover{
+    background-color: var(--preto);
+    color: var(--rosa);
+    transition: 0.3s;
+}
+
+
+/*Sobre a Marca*/
+.sobre{
+    display: flex;
+    height: 130vh;
+    background-color: var(--rosa);
+    padding: 20vh 0 10vh;
+}
+.sobreTxt{
+    width: 35%;
+    padding: 100px 50px 20px;
+}
+.sobreTxt h1{
+    font-family: var(--migra);
+    font-weight: 100;
+}
+.sobreTxt p{
+    font-family: var(--codecpro);
+    font-weight: 250;
+    font-size: 19px;
+}
+.sobreImg{
+    width: 65%;
+    display: flex;
+    padding: 20px 0 20px 50px ;
+}
+
+/*Divisão*/
+.divisao{
+    padding-top: 100px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url(Imagens/modelodiv.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Produtos*/
+.produtos{
+    height: 100vh;
+    background-color: var(--rosa);
+    display: flex;
+    gap: 100px;
+    padding: 100px;
+}
