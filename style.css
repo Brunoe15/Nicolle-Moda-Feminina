@@ -30,7 +30,6 @@
     --migra: font-family: "Playfair Display", serif;
     --codecpro: font-family: "Poppins", sans-serif;
 }
-
 /*Página Principal*/
 .inicio{
     height: 100vh;
@@ -80,7 +79,6 @@
     padding: 40px 80px 80px 40px;
 }
 .infoInicio h2{
-    font-family: var(--migra);
     font-weight: 100;
     text-align: center;
 }
@@ -113,11 +111,9 @@
     padding: 100px 50px 20px;
 }
 .sobreTxt h1{
-    font-family: var(--migra);
     font-weight: 100;
 }
 .sobreTxt p{
-    font-family: var(--codecpro);
     font-weight: 250;
     font-size: 19px;
 }
@@ -130,7 +126,7 @@
 /*Divisão*/
 .divisao{
     padding-top: 100px;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,9 +139,134 @@
 
 /*Produtos*/
 .produtos{
-    height: 100vh;
+    height: 130vh;
     background-color: var(--rosa);
     display: flex;
-    gap: 100px;
+    gap: 40px;
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.tituloProdutos{
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-size: 60px;
+}
+.textoProdutos{
+    font-weight: 250;
+    font-size: 23px;
+    text-align: center;
+    width: 80%;
+}
+.imgProdutos{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+
+    #lojaProdutos{
+        height: 65vh;
+        width: 370px;
+        background-size: 400px 400px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: url(Imagens/roupa3.jpg);
+    }
+    /*Botão instagram*/
+    #lojaProdutos button{  
+        width: 350px;
+        background-color: var(--rosa);
+        height: 60px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border-radius: 25px 25px 0 0;
+        font-weight: 480;
+        font-size: 28px;
+    }
+    #lojaProdutos a{
+        text-decoration: none;
+    }
+    #lojaProdutos button img{
+        width: 35px;
+    }
+    #lojaProdutos button:hover{ 
+        height: 70px;
+        transition: 0.3s;
+    }
+    
+
+    
+    #sobreProdutos{
+        height: 65vh;
+        width: 370px;
+        background-size: 400px 400px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: url(Imagens/whats3.jpg);
+        }
+        /*Botão whatsapp*/
+        #sobreProdutos button{  
+            width: 350px;
+            background-color: var(--rosa);
+            height: 60px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            border-radius: 25px 25px 0 0;
+            font-weight: 480;
+            font-size: 28px;
+        }
+        #sobreProdutos a{
+            text-decoration: none;
+        }
+        #sobreProdutos button img{
+            width: 35px;
+        }
+        #sobreProdutos button:hover{ 
+            height: 70px;
+            transition: 0.3s;
+        }
+        
+
+/*rodapé*/
+.rodape{
+    height: 25vh;
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#sociais{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+#sociais img{
+    width: 30px;
+}
+.rodape h3{
+    color: var(--rosa);
+    font-weight: 400;
+    font-size: 20px;
+}
+    #webDesign{
+        display: flex;
+        color: var(--rosa);
+        gap: 5px;
+    }
+    #webDesign a{
+        color: #a4c3f0;
+        text-decoration: none;
+    }
