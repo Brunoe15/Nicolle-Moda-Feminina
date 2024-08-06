@@ -15,7 +15,5 @@ Bootstrap: Framework poderoso para um design rápido e eficiente.
 Design Sofisticado: Cada detalhe pensado para valorizar a moda feminina.
 Paleta de Cores Elegante: Combinação harmoniosa para um visual irresistível.
 Facilidade de Navegação: Layout intuitivo e agradável.
-🚀 Explorar Agora:
-Visite a Página da Nicolle
 
 ✨ Deixe-se inspirar e descubra o que a moda feminina pode oferecer! ✨
