@@ -139,7 +139,7 @@
 
 /*Produtos*/
 .produtos{
-    height: 130vh;
+    height: 120vh;
     background-color: var(--rosa);
     display: flex;
     gap: 40px;

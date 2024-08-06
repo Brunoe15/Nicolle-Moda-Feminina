@@ -1,2 +1,21 @@
-# Nicolle-Moda-Feminina
-A marca Nicolle foi criada por Nicolle Azevedo com a intenção de trazer uma nova perspectiva para o mundo da moda feminina. Com um olhar atento às tendências e uma paixão pela elegância e conforto, a Nicolle se destaca por oferecer peças que são ao mesmo tempo modernas e atemporais.  Página criada usando as ferramentas HTML, CSS e Bootstrap
+🌸 Nicolle: Moda Feminina 🌸
+
+👗 Bem-vindo à Nicolle! 👗
+A moda feminina com um toque de elegância e sofisticação, desenvolvida com paixão e estilo!
+
+🎨 Tecnologias Utilizadas:
+
+HTML: Estrutura sólida e semântica para garantir a melhor experiência visual.
+CSS: Estilos modernos e elegantes que dão vida às nossas páginas.
+Bootstrap: Framework poderoso para um design rápido e eficiente.
+⚠️ Atenção: Esta página não é responsiva, otimizamos para uma experiência visual em dispositivos de tela maior. A versão responsiva estará disponível em breve! 😉
+
+💡 Destaques:
+
+Design Sofisticado: Cada detalhe pensado para valorizar a moda feminina.
+Paleta de Cores Elegante: Combinação harmoniosa para um visual irresistível.
+Facilidade de Navegação: Layout intuitivo e agradável.
+🚀 Explorar Agora:
+Visite a Página da Nicolle
+
+✨ Deixe-se inspirar e descubra o que a moda feminina pode oferecer! ✨
